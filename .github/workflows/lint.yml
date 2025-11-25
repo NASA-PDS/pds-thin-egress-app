@@ -13,7 +13,7 @@ jobs:
 
       - run: pip install -r requirements/requirements.txt
 
-      - uses: TrueBrain/actions-flake8@v2
+      - uses: TrueBrain/actions-flake8@36ab8db923b9a63cfd4b87840ca2f94c117bb50e
         with:
           plugins: flake8-isort
 
